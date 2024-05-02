@@ -48,5 +48,6 @@ We computed the total count of orders for customers belonging to the "Home Offic
 For orders from the "Home Office" segment with items from "Apparel" or "Outdoors" departments, we ranked each Order_City within each Order_State based on order count, ensuring alphabetical order in cases of ranking clashes.
 
 **Underestimated Orders**
+
 Finally, we ranked shipping modes for each year based on the number of orders where shipping days were underestimated. The analysis considered only 'COMPLETE' and 'CLOSED' orders from the 'Consumer' segment.
 
